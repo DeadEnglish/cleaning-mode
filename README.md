@@ -13,8 +13,6 @@ Currently a WIP but an official release shouldn't be too far off.
 
 ## Todo
 
----
-
 -   [ ] Complete `Bubble` component
 -   [ ] Implement close/open from system tray
 -   [ ] Implement full screen application on cleaning init
@@ -24,8 +22,6 @@ Currently a WIP but an official release shouldn't be too far off.
 -   [ ] Build and release V 1.0 ✨
 
 ## Incase Twitter dies
-
----
 
 ### The tweet
 
