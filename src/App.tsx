@@ -1,6 +1,7 @@
 import { invoke } from "@tauri-apps/api/tauri";
 import styled from "styled-components";
 import icon from "./assets/svg/bubbles.svg";
+import { Bubbles } from "./Components/bubbles/bubbles.component";
 
 function App() {
 	// Learn more about Tauri commands at https://tauri.app/v1/guides/features/command
@@ -10,7 +11,7 @@ function App() {
 
 	return (
 		<Main>
-			<div id="background" />
+			<Bubbles />
 			<Content>
 				<Header>
 					<Icon size={112}>
@@ -44,21 +45,6 @@ const Main = styled.main`
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-
-	background-image: linear-gradient(
-		0deg,
-		hsl(0deg 0% 0%) 0%,
-		hsl(278deg 38% 11%) 10%,
-		hsl(277deg 48% 20%) 20%,
-		hsl(277deg 54% 29%) 30%,
-		hsl(277deg 58% 39%) 40%,
-		hsl(277deg 61% 48%) 50%,
-		hsl(277deg 58% 39%) 60%,
-		hsl(277deg 54% 29%) 70%,
-		hsl(277deg 48% 20%) 80%,
-		hsl(278deg 38% 11%) 90%,
-		hsl(0deg 0% 0%) 100%
-	);
 `;
 
 const Icon = styled.div<{ size: number }>`
