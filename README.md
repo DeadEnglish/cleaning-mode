@@ -14,10 +14,10 @@ Currently a WIP but an official release shouldn't be too far off.
 ## Todo
 
 -   [x] Complete `Bubble` component
--   [ ] Implement close/open from system tray
--   [ ] Implement full screen application on cleaning init
--   [ ] Stop keyboard/mice inputs
--   [ ] Close application window on ⌘ + ⏎ hold
+-   [x] Implement close/open from system tray
+-   [x] Implement full screen application on cleaning init
+-   [] Stop keyboard/mice inputs
+-   [x] Close application window on ⌘ + Q press
 -   [ ] Better background ???
 -   [ ] Build and release V 1.0 ✨
 

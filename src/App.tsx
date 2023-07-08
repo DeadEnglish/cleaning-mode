@@ -4,11 +4,6 @@ import icon from "./assets/svg/bubbles.svg";
 import { Bubbles } from "./Components/bubbles/bubbles.component";
 
 function App() {
-	// Learn more about Tauri commands at https://tauri.app/v1/guides/features/command
-	async function greet() {
-		console.log(await invoke("greet", { name: "liam" }));
-	}
-
 	return (
 		<Main>
 			<Bubbles />
@@ -28,10 +23,8 @@ function App() {
 				<p>
 					Keyboard and mice/trackpads are disabled in cleaning mode.
 				</p>
-				<p>Hold down ⌘ + ⏎ to exit.</p>
+				<p>Press ⌘ + Q to exit.</p>
 			</Content>
-
-			{/* <button onClick={greet}>greet</button> */}
 		</Main>
 	);
 }
